@@ -37,6 +37,42 @@ export default function Marquee({ onViewDetails }) {
       result: '3 High-Ticket Clients in 30 days',
       textColor: 'text-[#e03131]',
       buttonColor: 'bg-[#e03131] hover:bg-[#bd2424]',
+    },
+    {
+      company: 'Baklava Bay',
+      category: 'Sweets Brand',
+      logo: '/baklava-logo.jpg',
+      service: 'Instagram Marketing & Chatbot Automation',
+      result: 'Ongoing — System Deployed',
+      textColor: 'text-[#046bd2]',
+      buttonColor: 'bg-[#046bd2] hover:bg-[#0352a2]',
+    },
+    {
+      company: 'GrowAI',
+      category: 'Edtech Platform',
+      logo: '/growai-logo.jpg',
+      service: 'Instagram Content & Authority Growth',
+      result: 'Consistent Organic Page Growth',
+      textColor: 'text-[#e03131]',
+      buttonColor: 'bg-[#e03131] hover:bg-[#bd2424]',
+    },
+    {
+      company: 'Taha Media',
+      category: 'Media Agency',
+      logo: '/taha-logo.jpg',
+      service: 'Short-Form Content Strategy',
+      result: 'Multiple Videos Crossed 1M+ Views',
+      textColor: 'text-[#046bd2]',
+      buttonColor: 'bg-[#046bd2] hover:bg-[#0352a2]',
+    },
+    {
+      company: 'Inopro',
+      category: 'Tech Services',
+      logo: '/inopro-logo.jpg',
+      service: 'Brand Positioning & SEO Strategy',
+      result: 'Cohesive Digital Brand Presence',
+      textColor: 'text-[#e03131]',
+      buttonColor: 'bg-[#e03131] hover:bg-[#bd2424]',
     }
   ];
 

@@ -96,6 +96,115 @@ const caseStudyData = {
     highlight: <>
       Securing 3 high-ticket international clients <span className="text-[#e03131] font-black">entirely inbound</span> within 30 days through targeted LinkedIn SEO and profile positioning.
     </>
+  },
+  'Baklava Bay': {
+    company: 'Baklava Bay',
+    category: 'Sweets Brand',
+    logo: '/baklava-logo.jpg',
+    service: 'Instagram Marketing & Chatbot Automation',
+    result: 'Ongoing — System Deployed',
+    resultLabel: 'Project Status',
+    statusBadge: 'Ongoing Project',
+    themeColor: '#046bd2',
+    accentColor: '#e03131',
+    resultsTitle: '04. Current Progress',
+    resultsBg: '#f7fdf9',
+    highlightBg: '#fffaf5',
+    challenge: <>
+      Baklava Bay is a premium Arabic sweets brand introducing authentic Middle Eastern desserts to a new audience. As a new business, it needed to <span className="text-[#046bd2] font-black underline decoration-2">build brand awareness</span>, educate customers about its products, and create a <span className="text-[#e03131] font-black">seamless ordering experience</span> without overwhelming the team with manual inquiries.
+    </>,
+    approach: <>
+      We developed a <span className="text-[#046bd2] font-black">digital-first strategy</span> centered around Instagram as the brand's primary customer acquisition channel. Alongside this, we built a fully automated customer communication system using the <span className="text-[#046bd2] font-black">Meta Developers Platform</span>, enabling customers to interact with the business directly through Instagram and WhatsApp. The strategy combined <span className="text-[#e03131] font-black">premium content creation, strategic posting, paid Meta advertising</span>, and conversational automation into one integrated customer journey.
+    </>,
+    execution: <>
+      We manage Baklava Bay's Instagram presence through <span className="text-[#046bd2] font-black">premium creative production, strategic content planning, consistent posting</span>, and Meta ad campaigns designed to maximize reach and generate qualified customer inquiries.
+      <br /><br />
+      To complement the marketing efforts, we developed a <span className="text-[#e03131] font-black">chatbot</span> using the Meta Developers Platform that automates customer interactions by allowing users to <span className="text-[#046bd2] font-black">browse the dessert menu, view product information, place customized orders</span>, and receive instant responses to frequently asked questions. This significantly reduces manual responses while providing customers with a faster and more convenient experience.
+    </>,
+    results: <>
+      The project is currently ongoing, with the Instagram marketing strategy and Meta-powered chatbot <span className="text-[#046bd2] font-black">fully deployed</span>. Together, they provide a <span className="text-[#e03131] font-black">streamlined customer journey</span>—from discovering the brand through social content and paid ads to exploring the menu and placing an order through automated conversations.
+    </>,
+    highlight: <>
+      Rather than treating marketing and customer support as separate functions, we integrated Instagram growth, paid advertising, premium creative content, and Meta-powered automation into a <span className="text-[#e03131] font-black underline decoration-2">single scalable system</span>. The result is a digital infrastructure designed to increase visibility, improve customer experience, and support business growth while <span className="text-[#046bd2] font-black">minimizing manual effort</span>.
+    </>
+  },
+  'GrowAI': {
+    company: 'GrowAI',
+    category: 'Edtech Platform',
+    logo: '/growai-logo.jpg',
+    service: 'Instagram Content & Authority Growth',
+    result: 'Consistent Organic Page Growth',
+    themeColor: '#e03131',
+    accentColor: '#046bd2',
+    resultsBg: '#fff5f5',
+    highlightBg: '#f0f7ff',
+    challenge: <>
+      GrowAI is an AI-focused EdTech platform operating in a highly competitive education market. The brand needed to <span className="text-[#e03131] font-black underline decoration-2">establish credibility</span>, build a strong Instagram presence, and consistently attract an audience <span className="text-[#046bd2] font-black">genuinely interested in AI</span> and emerging technologies through valuable educational content.
+    </>,
+    approach: <>
+      We developed a <span className="text-[#e03131] font-black">content-driven growth strategy</span> focused on positioning GrowAI as a trusted voice in AI education. This included creating a structured content strategy, writing <span className="text-[#046bd2] font-black">high-converting copy</span>, producing engaging on-camera educational videos, and designing <span className="text-[#046bd2] font-black">premium creatives</span> tailored for Instagram. Every piece of content was planned to educate, build trust, and maximize organic reach.
+    </>,
+    execution: <>
+      We managed GrowAI's Instagram presence end-to-end, handling <span className="text-[#e03131] font-black">content planning, scripting, copywriting, creative design</span>, video production, and strategic publishing. Content was continuously optimized around audience engagement, platform trends, and educational value to <span className="text-[#046bd2] font-black">improve performance and accelerate page growth</span> while maintaining a consistent brand identity.
+    </>,
+    results: <>
+      The strategy helped GrowAI establish a professional and recognizable presence on Instagram while achieving <span className="text-[#e03131] font-black">consistent organic page growth</span> and increased audience engagement. Through a combination of educational content, strategic storytelling, and premium creative execution, the page built a <span className="text-[#046bd2] font-black">stronger community</span> and improved brand visibility within the AI education space.
+    </>,
+    highlight: <>
+      We transformed GrowAI's Instagram into a content engine by combining AI-focused content strategy, persuasive copywriting, premium creative production, and <span className="text-[#e03131] font-black underline decoration-2">on-camera video storytelling</span>. Instead of simply publishing posts, we built a <span className="text-[#046bd2] font-black">scalable content framework</span> that strengthened brand authority and supported long-term organic growth.
+    </>
+  },
+  'Taha Media': {
+    company: 'Taha Media',
+    category: 'Media Agency',
+    logo: '/taha-logo.jpg',
+    service: 'Short-Form Content Strategy',
+    result: 'Multiple Videos Crossed 1M+ Views',
+    themeColor: '#046bd2',
+    accentColor: '#e03131',
+    resultsBg: '#f7fdf9',
+    highlightBg: '#fffaf5',
+    challenge: <>
+      Taha Media managed multiple personal brands and businesses that relied heavily on short-form content to generate organic reach. The challenge was to <span className="text-[#046bd2] font-black underline decoration-2">consistently produce content</span> capable of standing out in saturated niches while maintaining each client's unique voice and delivering <span className="text-[#e03131] font-black">measurable organic growth</span>.
+    </>,
+    approach: <>
+      As Taha Media's white-label content strategy partner, we developed <span className="text-[#046bd2] font-black">performance-driven content systems</span> for their clients. Our work focused on identifying high-performing content pillars, researching audience psychology, and crafting compelling copy that maximized viewer retention. Every script and hook was <span className="text-[#e03131] font-black">strategically engineered</span> to increase watch time, engagement, and organic reach.
+    </>,
+    execution: <>
+      We collaborated with Taha Media across multiple client accounts, delivering end-to-end content strategy and copywriting. This included developing <span className="text-[#046bd2] font-black">content pillars, researching trends, writing viral hooks</span>, scripting high-retention short-form videos, refining messaging, and creating storytelling frameworks tailored to each client's niche. Every piece of content was designed around platform algorithms and <span className="text-[#046bd2] font-black">audience behavior</span> to maximize performance while remaining authentic to the client's brand.
+    </>,
+    results: <>
+      The content strategy consistently delivered exceptional organic performance across multiple client accounts. Numerous videos surpassed <span className="text-[#046bd2] font-black">100,000+ organic views</span>, while several crossed the <span className="text-[#e03131] font-black font-semibold underline decoration-2">1 million view milestone</span>. The strategic approach significantly increased audience engagement, expanded brand visibility, and helped clients establish stronger authority within their respective industries.
+    </>,
+    highlight: <>
+      As a white-label strategy and copywriting partner for Taha Media, we helped build viral content systems that transformed ideas into high-performing short-form content. Through strategic content pillars, audience-first storytelling, and performance-focused copywriting, we contributed to content that generated hundreds of thousands—and in many cases, millions—of organic views, driving <span className="text-[#046bd2] font-black">sustainable growth</span> for multiple brands without relying solely on paid promotion.
+    </>
+  },
+  'Inopro': {
+    company: 'Inopro',
+    category: 'Tech Services',
+    logo: '/inopro-logo.jpg',
+    service: 'Brand Positioning & SEO Strategy',
+    result: 'Cohesive Digital Brand Presence',
+    themeColor: '#e03131',
+    accentColor: '#046bd2',
+    resultsBg: '#fff5f5',
+    highlightBg: '#f0f7ff',
+    challenge: <>
+      Inopro needed to strengthen its digital presence and establish itself as a credible brand within its industry. While the company had a strong service offering, its online positioning <span className="text-[#e03131] font-black underline decoration-2">lacked consistency</span>, making it difficult to communicate its expertise, improve search visibility, and <span className="text-[#046bd2] font-black">build authority</span> across professional platforms.
+    </>,
+    approach: <>
+      We developed a <span className="text-[#e03131] font-black">brand-focused digital content strategy</span> centered around search visibility and thought leadership. Our approach combined <span className="text-[#046bd2] font-black">SEO-driven website content</span> with strategic brand positioning across LinkedIn and Instagram, ensuring consistent messaging while strengthening Inopro's online presence.
+    </>,
+    execution: <>
+      We created SEO-optimized website content designed to improve search discoverability while clearly communicating the company's services and value proposition. Alongside the website, we developed <span className="text-[#046bd2] font-black">platform-specific content strategies</span> for LinkedIn and Instagram, producing content that positioned Inopro as an <span className="text-[#e03131] font-black">industry expert</span>, maintained a consistent brand voice, and increased professional credibility across digital channels.
+    </>,
+    results: <>
+      The content strategy established a stronger and more consistent digital identity for Inopro across its website and social media platforms. Through SEO-focused website copy and strategic brand positioning, the company enhanced its <span className="text-[#e03131] font-black">online credibility</span>, improved content consistency, and built a <span className="text-[#046bd2] font-black underline decoration-2">stronger foundation</span> for long-term organic growth and professional visibility.
+    </>,
+    highlight: <>
+      Rather than simply creating content, we built a cohesive brand communication system for Inopro. By combining SEO-driven website copy with strategic positioning on LinkedIn and Instagram, we helped create a <span className="text-[#e03131] font-black underline decoration-2">digital presence</span> that communicates expertise, strengthens brand perception, and supports <span className="text-[#046bd2] font-black">sustainable long-term growth</span>.
+    </>
   }
 };
 
@@ -158,14 +267,14 @@ export default function CaseStudyDetail({ companyName, onBack }) {
             <div className="border-2 border-black p-6 bg-[var(--color-impact-beige)] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] rounded-[6px] flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
               <div>
                 <span className="text-[10px] font-sans text-gray-500 font-bold uppercase tracking-wider block mb-0.5">
-                  Performance Metric Achieved
+                  {study.resultLabel || 'Performance Metric Achieved'}
                 </span>
                 <h2 className="font-sans font-black text-lg sm:text-2xl uppercase text-black leading-tight">
                   {study.result}
                 </h2>
               </div>
-              <span className="bg-[#046bd2] text-white border-2 border-black font-sans font-black text-xs uppercase px-4 py-2 rounded shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] inline-block select-none shrink-0">
-                Verified Result
+              <span className="text-white border-2 border-black font-sans font-black text-xs uppercase px-4 py-2 rounded shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] inline-block select-none shrink-0" style={{ backgroundColor: study.themeColor || '#046bd2' }}>
+                {study.statusBadge || 'Verified Result'}
               </span>
             </div>
 
@@ -203,9 +312,9 @@ export default function CaseStudyDetail({ companyName, onBack }) {
               </div>
 
               {/* Results Box */}
-              <div className="border-2 border-black p-6 rounded-[6px] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-[#f7fdf9] border-[#046bd2] text-left">
-                <span className="text-[10px] font-sans text-[#046bd2] font-black uppercase tracking-widest block mb-2">
-                  04. The Results
+              <div className="border-2 border-black p-6 rounded-[6px] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] text-left" style={{ backgroundColor: study.resultsBg || '#f7fdf9', borderColor: study.themeColor || '#046bd2' }}>
+                <span className="text-[10px] font-sans font-black uppercase tracking-widest block mb-2" style={{ color: study.themeColor || '#046bd2' }}>
+                  {study.resultsTitle || '04. The Results'}
                 </span>
                 <p className="font-body text-sm sm:text-base font-medium text-gray-800 leading-relaxed">
                   {study.results}
@@ -213,8 +322,8 @@ export default function CaseStudyDetail({ companyName, onBack }) {
               </div>
 
               {/* The Highlight Box */}
-              <div className="border-2 border-black p-6 rounded-[6px] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-[#fffaf5] border-[#e03131] text-left">
-                <span className="text-[10px] font-sans text-[#e03131] font-black uppercase tracking-widest block mb-2">
+              <div className="border-2 border-black p-6 rounded-[6px] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] text-left" style={{ backgroundColor: study.highlightBg || '#fffaf5', borderColor: study.accentColor || '#e03131' }}>
+                <span className="text-[10px] font-sans font-black uppercase tracking-widest block mb-2" style={{ color: study.accentColor || '#e03131' }}>
                   05. Key Highlight
                 </span>
                 <p className="font-body text-sm sm:text-base font-semibold text-gray-900 leading-relaxed">

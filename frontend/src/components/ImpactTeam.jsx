@@ -64,19 +64,19 @@ export default function ImpactTeam() {
     {
       name: 'Sujitha',
       image: '/suji%20professional.png',
-      tags: ['Founder & CEO', 'Brand Strategist', 'Growth Architect', 'Digital Expert'],
+      tags: ['Founder & CEO', 'Brand Strategist', 'Funnel & Growth Architect', 'Digital Marketing Expert'],
       linkedin: 'https://www.linkedin.com/in/sujitha17/'
     },
     {
       name: 'Saiful Azman',
       image: '/saif%20professional.png',
-      tags: ['Founder & CGO', 'Paid Social & Ads Strategist', 'Performance Marketer', 'Conversion Specialist'],
+      tags: ['Founder & CGO', 'Paid Ads Strategist', 'Media Buyer', 'Lead Generation Expert'],
       linkedin: 'https://www.linkedin.com/in/saiful-azman-s/'
     },
     {
       name: 'Vasigaran',
       image: '/vasi%20professional.png',
-      tags: ['Founder & COO', 'Creative Director', 'AI & Automation Specialist', 'CRM Architect'],
+      tags: ['Founder & COO', 'Creative & RevOps Head', 'AI & Automation Specialist', 'CRM Architect'],
       linkedin: 'https://www.linkedin.com/in/vasigaran-s/'
     }
   ];

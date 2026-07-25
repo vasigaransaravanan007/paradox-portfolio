@@ -43,10 +43,16 @@ function ThreeBackground() {
 export default function ImpactHero() {
   const [line1, setLine1] = useState('');
   const [line2, setLine2] = useState('');
+  const [line3, setLine3] = useState('');
+  const [line4, setLine4] = useState('');
+  const [line5, setLine5] = useState('');
   const [showCursor, setShowCursor] = useState(true);
 
-  const line1Text = 'THE LESS YOU CHASE,';
-  const line2Text = 'THE MORE THEY COME.';
+  const line1Text = 'ATTRACT,';
+  const line2Text = "DONT CHASE.";
+  const line3Text = 'THE STRONGEST';
+  const line4Text = 'MAGNET NEVER';
+  const line5Text = 'MOVES.';
 
   useEffect(() => {
     let active = true;
@@ -78,6 +84,51 @@ export default function ImpactHero() {
       for (let i = 0; i <= line2Text.length; i++) {
         if (!active) return;
         setLine2(line2Text.slice(0, i));
+        await new Promise(resolve => {
+          timerId = setTimeout(resolve, 65);
+        });
+      }
+
+      // Pause between lines
+      await new Promise(resolve => {
+        timerId = setTimeout(resolve, 350);
+      });
+      if (!active) return;
+
+      // Type line 3
+      for (let i = 0; i <= line3Text.length; i++) {
+        if (!active) return;
+        setLine3(line3Text.slice(0, i));
+        await new Promise(resolve => {
+          timerId = setTimeout(resolve, 65);
+        });
+      }
+
+      // Pause between lines
+      await new Promise(resolve => {
+        timerId = setTimeout(resolve, 350);
+      });
+      if (!active) return;
+
+      // Type line 4
+      for (let i = 0; i <= line4Text.length; i++) {
+        if (!active) return;
+        setLine4(line4Text.slice(0, i));
+        await new Promise(resolve => {
+          timerId = setTimeout(resolve, 65);
+        });
+      }
+
+      // Pause between lines
+      await new Promise(resolve => {
+        timerId = setTimeout(resolve, 350);
+      });
+      if (!active) return;
+
+      // Type line 5
+      for (let i = 0; i <= line5Text.length; i++) {
+        if (!active) return;
+        setLine5(line5Text.slice(0, i));
         await new Promise(resolve => {
           timerId = setTimeout(resolve, 65);
         });
@@ -123,7 +174,7 @@ export default function ImpactHero() {
           </div>
 
           {/* Dynamic Typewriter Heading */}
-          <h1 className="font-sans font-bold text-3xl sm:text-5xl md:text-[3.5rem] uppercase text-black tracking-tight leading-[1.15] mb-6 select-none min-h-[90px] md:min-h-[140px]">
+          <h1 className="font-sans font-bold text-3xl sm:text-5xl md:text-[3.5rem] uppercase text-black tracking-tight leading-[1.15] mb-6 select-none min-h-[220px] sm:min-h-[280px] md:min-h-[350px]">
             <span className="block">
               {line1}
               {(!line1 || (line1 && !line2)) && (
@@ -134,7 +185,31 @@ export default function ImpactHero() {
             </span>
             <span className="block">
               {line2}
-              {line2 && (
+              {(line2 && !line3) && (
+                <span className={`inline-block ml-1 text-[#046bd2] font-light transition-opacity duration-100 ${showCursor ? 'opacity-100' : 'opacity-0'}`}>
+                  |
+                </span>
+              )}
+            </span>
+            <span className="block">
+              {line3}
+              {(line3 && !line4) && (
+                <span className={`inline-block ml-1 text-[#046bd2] font-light transition-opacity duration-100 ${showCursor ? 'opacity-100' : 'opacity-0'}`}>
+                  |
+                </span>
+              )}
+            </span>
+            <span className="block">
+              {line4}
+              {(line4 && !line5) && (
+                <span className={`inline-block ml-1 text-[#046bd2] font-light transition-opacity duration-100 ${showCursor ? 'opacity-100' : 'opacity-0'}`}>
+                  |
+                </span>
+              )}
+            </span>
+            <span className="block">
+              {line5}
+              {line5 && (
                 <span className={`inline-block ml-1 text-[#046bd2] font-light transition-opacity duration-100 ${showCursor ? 'opacity-100' : 'opacity-0'}`}>
                   |
                 </span>

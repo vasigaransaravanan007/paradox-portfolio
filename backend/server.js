@@ -53,12 +53,55 @@ app.post('/api/leads', async (req, res) => {
 
         const mailOptions = {
           from: process.env.EMAIL_USER,
-          to: 'paradooxagencyoffl@gmail.com',
-          subject: `New Lead: ${firstName} ${lastName} from ${company}`,
-          text: `You have a new lead!\n\nName: ${firstName} ${lastName}\nEmail: ${email}\nCompany: ${company}\nBudget: ${budget}\nChallenge/Goal: ${challenge || 'N/A'}`
+          to: process.env.EMAIL_TO || 'paradoxagencyoffl@gmail.com',
+          subject: `⚡ New Lead: ${firstName} ${lastName} from ${company}`,
+          html: `
+            <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; border: 3px solid #000000; padding: 30px; background-color: #fbfbf8; color: #000000; box-shadow: 6px 6px 0px 0px rgba(0,0,0,1); border-radius: 8px;">
+              <div style="text-align: center; margin-bottom: 25px; border-bottom: 3px solid #000000; padding-bottom: 20px;">
+                <h1 style="font-size: 28px; font-weight: 900; margin: 0; text-transform: uppercase; letter-spacing: -0.5px;">⚡ NEW INQUIRY RECEIVED</h1>
+              </div>
+              
+              <div style="margin-bottom: 25px;">
+                <table style="width: 100%; border-collapse: collapse;">
+                  <tr>
+                    <td style="padding: 10px 0; font-weight: 800; text-transform: uppercase; font-size: 13px; color: #000000; border-bottom: 1px solid #e0e0e0; width: 160px;">Name</td>
+                    <td style="padding: 10px 0; font-size: 15px; color: #333333; border-bottom: 1px solid #e0e0e0; font-weight: 500;">${firstName} ${lastName}</td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 10px 0; font-weight: 800; text-transform: uppercase; font-size: 13px; color: #000000; border-bottom: 1px solid #e0e0e0;">Work Email</td>
+                    <td style="padding: 10px 0; font-size: 15px; border-bottom: 1px solid #e0e0e0;">
+                      <a href="mailto:${email}" style="color: #046bd2; text-decoration: underline; font-weight: bold;">${email}</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 10px 0; font-weight: 800; text-transform: uppercase; font-size: 13px; color: #000000; border-bottom: 1px solid #e0e0e0;">Company / Brand</td>
+                    <td style="padding: 10px 0; font-size: 15px; color: #333333; border-bottom: 1px solid #e0e0e0; font-weight: 500;">${company}</td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 10px 0; font-weight: 800; text-transform: uppercase; font-size: 13px; color: #000000; border-bottom: 1px solid #e0e0e0;">Project Budget</td>
+                    <td style="padding: 10px 0; font-size: 15px; border-bottom: 1px solid #e0e0e0;">
+                      <span style="background-color: #e03131; color: #ffffff; padding: 4px 8px; border: 1.5px solid #000000; font-weight: 800; font-size: 12px; border-radius: 2px; box-shadow: 2px 2px 0px 0px rgba(0,0,0,1); display: inline-block;">
+                        ${budget}
+                      </span>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              
+              <div style="background-color: #ffffff; border: 2px solid #000000; padding: 20px; border-radius: 4px; box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);">
+                <h3 style="margin-top: 0; margin-bottom: 10px; font-weight: 800; text-transform: uppercase; font-size: 13px; color: #000000; border-bottom: 1px solid #e0e0e0; padding-bottom: 6px;">PROJECT CHALLENGE & GOALS</h3>
+                <p style="margin: 0; font-size: 14px; color: #333333; line-height: 1.6; white-space: pre-wrap; font-style: italic;">${challenge || 'No challenge description provided.'}</p>
+              </div>
+              
+              <div style="margin-top: 30px; border-top: 2px solid #000000; padding-top: 15px; text-align: center;">
+                <p style="margin: 0; font-size: 11px; color: #666666; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px;">This is an automated notification from the Paradox Agency web app.</p>
+              </div>
+            </div>
+          `
         };
 
         await transporter.sendMail(mailOptions);
+        console.log(`Email notification successfully sent to ${mailOptions.to} for lead from ${company}`);
       } else {
         console.warn('EMAIL_USER and EMAIL_PASS not set in .env, skipping email notification.');
       }
