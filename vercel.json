@@ -1,12 +1,20 @@
 {
-  "experimentalServices": {
+  "services": {
     "frontend": {
-      "root": "frontend",
-      "routeProfile": "/*"
+      "root": "frontend"
     },
     "backend": {
-      "root": "backend",
-      "routeProfile": "/api/*"
+      "root": "backend"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": { "service": "backend" }
+    },
+    {
+      "source": "/(.*)",
+      "destination": { "service": "frontend" }
+    }
+  ]
 }
