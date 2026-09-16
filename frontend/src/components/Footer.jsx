@@ -53,8 +53,9 @@ export default function Footer({ setView }) {
         </nav>
 
         {/* Copyright */}
-        <div className="font-poppins text-[10px] text-gray-400 font-medium md:text-right select-none">
-          &copy; 2026 Paradox Agency.
+        <div className="font-poppins text-[10px] text-gray-400 font-medium md:text-right select-none flex items-center gap-4">
+          <a href="/privacy-policy.html" className="hover:text-black transition-colors underline">Privacy Policy</a>
+          <span>&copy; 2026 Paradox Agency.</span>
         </div>
 
       </div>

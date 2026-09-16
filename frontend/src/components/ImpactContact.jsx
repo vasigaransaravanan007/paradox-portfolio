@@ -90,8 +90,8 @@ export default function ImpactContact() {
                 <div className="w-10 h-10 bg-impact-white border-2 border-black flex items-center justify-center rounded-[4px] shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] flex-shrink-0">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-black"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
                 </div>
-                <a href="https://instagram.com/paradoxagencyoffl" target="_blank" rel="noopener noreferrer" className="font-sans font-bold text-black hover:text-[#046bd2] transition-colors">
-                  @paradoxagencyoffl
+                <a href="https://instagram.com/paradoxagency.in" target="_blank" rel="noopener noreferrer" className="font-sans font-bold text-black hover:text-[#046bd2] transition-colors">
+                  @paradoxagency.in
                 </a>
               </div>
 
@@ -257,7 +257,7 @@ export default function ImpactContact() {
             </p>
             <div className="flex items-center gap-4 pt-2">
               <a 
-                href="https://instagram.com/paradoxagencyoffl" 
+                href="https://instagram.com/paradoxagency.in" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-9 h-9 bg-gray-900 hover:bg-[#e03131] border border-gray-800 hover:border-black flex items-center justify-center rounded-full text-white transition-all shadow-[2px_2px_0px_0px_rgba(255,255,255,0.1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[-2px]"
@@ -361,9 +361,10 @@ export default function ImpactContact() {
         {/* Bottom copyright info */}
         <div className="max-w-6xl mx-auto pt-8 border-t border-gray-900 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs">
           <p className="text-gray-500 text-center sm:text-left">
-            Copyright &copy; {new Date().getFullYear()} Paradox Agency.
+            Copyright &copy; {new Date().getFullYear()} Paradox Agency. All rights reserved.
           </p>
-          <div className="flex gap-6 text-gray-500">
+          <div className="flex items-center gap-6 text-gray-500">
+            <a href="/privacy-policy.html" className="hover:text-white transition-colors underline">Privacy Policy</a>
             <span className="italic text-[#e03131] font-bold">Turning contradictions into conversions.</span>
           </div>
         </div>
