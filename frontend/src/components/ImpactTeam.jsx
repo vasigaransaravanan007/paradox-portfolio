@@ -62,15 +62,9 @@ const TeamMember = ({ image, name, tags, linkedin }) => (
 export default function ImpactTeam() {
   const team = [
     {
-      name: 'Sujitha',
-      image: '/suji%20professional.png',
-      tags: ['Founder & CEO', 'Brand Strategist', 'Funnel & Growth Architect', 'Digital Marketing Expert'],
-      linkedin: 'https://www.linkedin.com/in/sujitha17/'
-    },
-    {
       name: 'Saiful Azman',
       image: '/saif%20professional.png',
-      tags: ['Founder & CGO', 'Paid Ads Strategist', 'Media Buyer', 'Lead Generation Expert'],
+      tags: ['Founder & CEO', 'Paid Ads Strategist', 'Media Buyer', 'Lead Generation Expert'],
       linkedin: 'https://www.linkedin.com/in/saiful-azman-s/'
     },
     {
@@ -122,7 +116,7 @@ export default function ImpactTeam() {
               Meet The Founders
             </h2>
             
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
               {team.map((member, index) => (
                 <TeamMember key={index} {...member} />
               ))}
